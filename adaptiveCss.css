@@ -1,0 +1,90 @@
+@media screen and (max-width: 1280px){
+  .five-ad-web{
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 1020px){
+  .main-first{
+    justify-content: center;
+    padding: 30px 10px;
+  }
+
+}
+
+@media screen and (max-width: 876px){
+  .five-ad-web{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .main-first{
+    display: block;
+    height: 300px;
+    overflow: scroll;
+  }
+
+  .main-first-item{
+    margin: 30px auto;
+  }
+
+  .yes-or-no{
+    margin: 30px auto;
+  }
+}
+
+
+@media screen and (max-width: 520px){
+  .header-lower{
+    display: none;
+    background-color: white;
+    position: relative;
+  }
+
+  .burger{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+  }
+
+  .header-upper{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .header-upper-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .header-lower a{
+    color: #0088A2;
+    padding: 14px 16px;
+    border-bottom: 1px solid #0088A2;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    background-color:white; 
+  }
+
+  .project{
+    height: 370px;
+    overflow: scroll;
+  }
+
+  .download{
+    height: 370px;
+    overflow: scroll;
+  }
+
+  .download-icon{
+    width: 100px;
+  }
+  .download-icon img{
+    width: 100%;
+  }
+  
+}
